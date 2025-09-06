@@ -1,26 +1,35 @@
 telegram:
-  api_id: hidden
-  api_hash: hidden
+  api_id: '24456380'
+  api_hash: fe4d4eb35510370ea1073fbcb36e1fcc
+  lib: pyrogram
+  account:
+    session_file: account.session
+    used_to_upload: true
   bot:
     session_file: bot.session
     tokens:
-      - hidden
-  private_file_channel: 'tgfsdemo'
-  lib: pyrogram
+      - 8452658849:AAFcO3EbhRwWqzOPcmrvZAzdjyqSiqrXST8
+  private_file_channel:
+    - '-1003043888842'
 tgfs:
   users:
+    Kareem:
+      password: Kareem
   download:
     chunk_size_kb: 1024
   jwt:
-    secret: hidden
+    secret: TtJ-@T4i?SYv-Rh=*}:5|kYj*x2OVS+(#A!jy^ATSP5cD-,uIKp0adC0c%m}*[,j
     algorithm: HS256
     life: 604800
   metadata:
-    type: github_repo
-    github_repo:
-      repo: 'tgfs-demo/tgfs-demo'
-      commit: 'master'
-      access_token: hidden
+    '-1003043888842':
+      name: default
+      type: github_repo
+      github_repo:
+        repo: https://github.com/kareem5511/myrepo
+        commit: master
+        access_token: >-
+          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
   server:
     host: 0.0.0.0
     port: 1900
